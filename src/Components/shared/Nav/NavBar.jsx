@@ -11,8 +11,8 @@ const NavBar = () => {
                         <img className="h-28 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Oxford-University-Circlet.svg/1636px-Oxford-University-Circlet.svg.png" alt="" />
                     </div>
                     <div className="text-center">
-                        <h1 className="text-[#314E52] text-3xl font-semibold py-2">Khord Ailchara Secondary Schoo</h1>
-                        <h1 className="text-[#314E52] text-xl font-semibold">খোর্দ আইলচারা মাধ্যমিক বিদ্যালয়</h1>
+                        <h1 className="text-black text-3xl font-semibold py-2">Khord Ailchara Secondary Schoo</h1>
+                        <h1 className="text-black text-2xl font-semibold">খোর্দ আইলচারা মাধ্যমিক বিদ্যালয়</h1>
                     </div>
                 </div>
             </div>
