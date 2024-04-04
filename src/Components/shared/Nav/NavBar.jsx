@@ -11,10 +11,10 @@ const NavBar = () => {
                         <img className="h-28 w-28  rounded-full " src={logo} alt="" />
                     </div>
                     <div
-                    style={{
-                        letterSpacing:"2px",
-                    }}
-                    className="text-center">
+                        style={{
+                            letterSpacing: "2px",
+                        }}
+                        className="text-center">
                         <h1 className="text-[#F7F6E7] text-3xl font-semibold py-2 ">Khord Ailchara Secondary Schoo</h1>
                         <h1 className="text-[#F7F6E7] text-2xl font-semibold">খোর্দ আইলচারা মাধ্যমিক বিদ্যালয়</h1>
                     </div>

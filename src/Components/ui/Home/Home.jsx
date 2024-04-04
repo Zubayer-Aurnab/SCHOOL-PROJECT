@@ -4,7 +4,7 @@ import HomeSide from "./HomeSide/HomeSide";
 
 const Home = () => {
     return (
-        <div className="flex w-4/5 mx-auto py-10">
+        <div className="flex w-4/5 mx-auto py-10 gap-4">
             <div className="w-[80%]">
                 <HomeMain />
             </div>
