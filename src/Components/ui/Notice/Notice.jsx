@@ -5,7 +5,7 @@ const Notice = () => {
         <div className="bg-[#F7F6E7]">
             <div className="w-4/5 mx-auto ">
                 <h1 className="text-3xl font-bold  text-gray-800 text-center my-8 underline">NOTICE </h1>
-                <div className='flex justify-center'>
+                <div className='flex justify-center mb-10'>
                     <img src={niyog} alt="" className='' />
                 </div>
             </div>
