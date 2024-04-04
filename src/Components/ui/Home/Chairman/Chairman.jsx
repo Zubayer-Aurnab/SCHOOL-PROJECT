@@ -1,15 +1,15 @@
-import a2 from '../../../../assets/Persons/a2.jpg'
+import a1 from '../../../../assets/Persons/a1.jpg'
 
-const Principal = () => {
+const Chairman = () => {
     return (
         <div className="border-4 mt-10">
-            <h1 className="text-lg bg-[#E7E6E1] ">প্রধান শিক্ষকঃ</h1>
-            <div className='mt-4 p-4 flex gap-5'>
+            <h1 className="text-lg bg-[#E7E6E1] ">সভাপতিঃ</h1>
+            <div className='mt-4 p-4 flex flex-row-reverse gap-5'>
                 <div className=''>
-                    <img src={a2} alt="" className='w-60 rounded-full' />
-                    <p>প্রধান শিক্ষকঃ মোঃ মাসুদ আল মামুন</p>
+                    <img src={a1} alt="" className='w-60 rounded-full' />
+                    <p>সভাপতিঃ কামরুজ্জামান নাসির</p>
                 </div>
-                <p
+                {/* <p
                     style={{
                         textIndent: "100px",
                         textAlign: "justify",
@@ -20,10 +20,10 @@ const Principal = () => {
                     <br />
                     আমাদের বিদ্যালয়ের ওয়েবসাইট টি সকল শিক্ষার্থী, অভিভাবক ও সাধারন মানুষের জন্য রয়েছে উন্মুক্ত। মাধ্যমিক স্তরে বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখা সহ কারিগরি শাখা চালু আছে। উচ্চ মাধ্যমিক স্তরে বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখা বিদ্যমান। প্রভাতি শাখায় বালিকা ও দিবা শাখায় বালক শিক্ষার্থী পড়াশুনা করছে। আধুনিক প্রযুক্তিনির্ভর ঐতিহ্যবাহী এই স্কুলের সাথে সংশ্লিষ্ট সকলের সুন্দর জীবন কামনা করছি।
 
-                </p>
+                </p> */}
             </div>
         </div>
     );
 };
 
-export default Principal;
+export default Chairman;

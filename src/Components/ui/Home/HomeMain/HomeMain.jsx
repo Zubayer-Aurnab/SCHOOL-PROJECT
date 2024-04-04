@@ -7,6 +7,7 @@ const HomeMain = () => {
         <div className="">
             <Slider />
             <Principal />
+         
         </div>
     );
 };
