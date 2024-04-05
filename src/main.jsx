@@ -1,14 +1,14 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import App from './App.jsx';
 import Home from './Components/ui/Home/Home.jsx';
 import Notice from './Components/ui/Notice/Notice.jsx';
-import Recruitment from './Components/ui/Recruitment/Recruitment.jsx';
+import './index.css';
+import About from './Components/ui/About/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,8 +25,8 @@ const router = createBrowserRouter([
 
       },
       {
-        path: '/recruitment',
-        element: <Recruitment />
+        path: '/about',
+        element: <About />
       }
     ],
   },

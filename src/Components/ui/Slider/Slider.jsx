@@ -13,7 +13,7 @@ import p5 from '../../../assets/p5.jpg';
 
 const Slider = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full '>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={10}
@@ -28,16 +28,16 @@ const Slider = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <img src={p5} alt="" className='h-[60vh] w-full object-cover rounded-xl' />
+                    <img src={p5} alt="" className='h-[70vh] w-full object-cover rounded-xl' />
                 </SwiperSlide>
                 <SwiperSlide className="" >
-                    <img src={p1} alt="" className='h-[60vh] w-full object-cover rounded-xl' />
+                    <img src={p1} alt="" className='h-[70vh] w-full object-cover rounded-xl' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={p2} alt="" className='h-[60vh] w-full object-cover rounded-xl' />
+                    <img src={p2} alt="" className='h-[70vh] w-full object-cover rounded-xl' />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={p4} alt="" className='h-[60vh] w-full object-cover rounded-xl' />
+                    <img src={p4} alt="" className='h-[70vh] w-full object-cover rounded-xl' />
                 </SwiperSlide>
 
             </Swiper>
