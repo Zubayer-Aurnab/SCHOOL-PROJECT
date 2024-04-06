@@ -34,20 +34,20 @@ const NavBar = () => {
                     Home
                 </NavLink>
                 <NavLink
-                    to="/notice"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl border-b-4 border-[#314E52] font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Notice
-                </NavLink>
-                <NavLink
                     to="/about"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "text-[#314E52] font-semibold lg:text-xl border-b-4 border-[#314E52] " : "text-[#314E52] font-semibold lg:text-xl hover:border-b-4 border-[#314E52] font-semibold "
                     }
                 >
                     About
+                </NavLink>
+                <NavLink
+                    to="/notice"
+                    className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl border-b-4 border-[#314E52] font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+                    }
+                >
+                    Notice
                 </NavLink>
 
             </div>

@@ -1,13 +1,13 @@
 import a1 from '../../../assets/Persons/a1.jpg'
 import a2 from '../../../assets/Persons/a2.jpg'
-import p3 from '../../../assets/p3.jpg'
+import p4 from '../../../assets/p4.jpg'
 import p6 from '../../../assets/p6.jpg'
 import p7 from '../../../assets/p7.jpg'
-import Slider from '../Slider/Slider';
+import Slider from '../Slider/Slider'
 
 const About = () => {
     return (
-        <div className='px-4 lg:w-4/5 mx-auto'>
+        <div className='px-2 lg:w-4/5 mx-auto'>
             <h1 className="text-2xl lg:text-3xl font-bold  text-gray-800 text-center my-8 underline">About </h1>
             {/* Principal And chairman section  */}
             <div className='flex flex-col lg:flex-row gap-8 lg:gap-0 justify-evenly'>
@@ -33,7 +33,7 @@ const About = () => {
                 <div className='mb-10'>
                     <Slider />
                     <div className='flex flex-col lg:flex-row gap-4 lg:gap-16 mt-4 lg:mt-8'>
-                        <img src={p3} alt="" className='lg:h-1/3 lg:w-1/3 rounded-xl' />
+                        <img src={p4} alt="" className='lg:h-1/3 lg:w-1/3 rounded-xl' />
                         <img src={p6} alt="" className='lg:h-1/3 lg:w-1/3 rounded-xl' />
                         <img src={p7} alt="" className='lg:w-1/4 rounded-xl' />
                     </div>
