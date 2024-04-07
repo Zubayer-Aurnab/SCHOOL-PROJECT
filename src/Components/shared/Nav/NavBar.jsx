@@ -1,8 +1,74 @@
 import { NavLink } from "react-router-dom";
 import logo from "../../../assets/logo2.png"
 import { FaLocationDot } from "react-icons/fa6";
+import { useState } from "react";
 
 const NavBar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleDropdown = () => {
+        setIsOpen(!isOpen);
+    };
+    const links = <>
+
+        <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl  border-b-4 border-[#314E52] font-semibold " : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Home
+        </NavLink>
+        <NavLink
+            to="/about"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] font-semibold lg:text-xl border-b-4 border-[#314E52] " : "text-[#314E52] font-semibold lg:text-xl hover:border-b-4 border-[#314E52] font-semibold "
+            }
+        >
+            About
+        </NavLink>
+        <NavLink
+            to="/notice"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl border-b-4 border-[#314E52] font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Notice
+        </NavLink>
+        <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl   font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Admission
+        </NavLink>
+        <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl   font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Academy
+        </NavLink>
+        <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl   font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Administration
+        </NavLink>
+        <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl  font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Gallery
+        </NavLink>
+
+    </>
     return (
         <div>
             {/* UPPER NAV */}
@@ -29,64 +95,25 @@ const NavBar = () => {
 
 
             {/* bottom nav */}
-            <div className="bg-[#F2A154]  h-12 flex gap-10 justify-center py-2  overflow-x-auto">
-                <NavLink
-                    to="/"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl  border-b-4 border-[#314E52] font-semibold " : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Home
-                </NavLink>
-                <NavLink
-                    to="/about"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] font-semibold lg:text-xl border-b-4 border-[#314E52] " : "text-[#314E52] font-semibold lg:text-xl hover:border-b-4 border-[#314E52] font-semibold "
-                    }
-                >
-                    About
-                </NavLink>
-                <NavLink
-                    to="/notice"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl border-b-4 border-[#314E52] font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Notice
-                </NavLink>
-                <NavLink
-                    to="/"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52]  font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Admission
-                </NavLink>
-                <NavLink
-                    to="/"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52]  font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Academy
-                </NavLink>
-                <NavLink
-                    to="/"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Administration
-                </NavLink>
-                <NavLink
-                    to="/"
-                    className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
-                    }
-                >
-                    Gallery
-                </NavLink>
+            <div className="bg-[#F2A154]  h-12  gap-10 justify-center py-2 hidden lg:flex">
+                {links}
+            </div>
 
+            {/* For Mobile */}
+            <div className="bg-[#F2A154] block lg:hidden">
+                <div className="flex justify-between items-center p-2" onClick={toggleDropdown}>
+                    <span className="text-[#314E52] font-bold ">Menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#314E52] font-bold " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        {isOpen ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                        ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        )}
+                    </svg>
+                </div>
+                <div style={{ maxHeight: isOpen ? '100vh' : '0', overflow: 'hidden', transition: 'max-height 1s ease' }} className="flex flex-col gap-5 p-2">
+                    {links}
+                </div>
             </div>
             {/* bottom nav */}
 
