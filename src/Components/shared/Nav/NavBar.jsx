@@ -16,11 +16,11 @@ const NavBar = () => {
                             letterSpacing: "2px",
                         }}
                         className="text-center ">
-                        <h1 className="text-[#F7F6E7] text-[12px] lg:text-3xl font-semibold py-2 ">Khord Ailchara Secondary School</h1>
-                        <h1 className="text-[#F7F6E7] text-[10px] lg:text-2xl font-semibold pb-2">খোর্দ আইলচারা মাধ্যমিক বিদ্যালয়</h1>
-                        <div className="flex justify-center gap-4">
+                        <h1 className="text-[#F7F6E7] text-[12px] lg:text-3xl font-semibold py-1 lg:py-2 ">Khord Ailchara Secondary School</h1>
+                        <h1 className="text-[#F7F6E7] text-[10px] lg:text-2xl font-semibold py-1 lg:pb-2">খোর্দ আইলচারা মাধ্যমিক বিদ্যালয়</h1>
+                        <div className="flex justify-center gap-2 lg:gap-4">
                             <h1 className="text-[#F7F6E7] text-[8px] lg:text-base ">ইআইআইএন: ১১৭৭৬৬   </h1>
-                            <h1 className="text-[#F7F6E7] text-[8px] lg:text-base flex justify-center items-center gap-2"><FaLocationDot />কুষ্টিয়া  </h1>
+                            <h1 className="text-[#F7F6E7] text-[8px] lg:text-base flex justify-center items-center gap-1 lg:gap-2"><FaLocationDot />কুষ্টিয়া  </h1>
                         </div>
                     </div>
                 </div>
