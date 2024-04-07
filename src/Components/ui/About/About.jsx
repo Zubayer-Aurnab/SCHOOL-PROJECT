@@ -55,7 +55,7 @@ const About = () => {
                         className='text-lg'>এই শিক্ষা প্রতিষ্ঠান উচ্চ মানের শিক্ষা প্রদান করছে। এইখানে পড়ালেখা করলে আপনার বাচ্চারা ভালো জায়গায় পড়ালেখা করার সুযোগ পাবে।</p>
                 </div>
                 <div className='mb-10'>
-                    <h1 className='text-2xl lg:text-3xl mb-2 font-semibold'>Khord Ail Chara Secondary School Phone Number – 01726033729</h1>
+                    <h1 className='text-2xl lg:text-3xl mb-2 font-semibold'>Khord Ail Chara Secondary School Phone Number –01309117766, -01749634207, -01710626914 </h1>
                     <ul className='text-lg'>
                         <li>• Institute Name – Khord Ail Chara Secondary School</li>
                         <li>• Village/Area – Khoada Ail Chara</li>
