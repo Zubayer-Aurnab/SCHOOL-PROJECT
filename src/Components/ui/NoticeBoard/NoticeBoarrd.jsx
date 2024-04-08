@@ -11,15 +11,16 @@ const NoticeBoard = () => {
                 <Link to={'/notice'}>
                     <div className=" p-2 flex gap-3 bg-[#E7E6E1] m-2">
                         <img src={niyog} alt="" className="h-28" />
-                        <div className="space-y-3">
+                        <div className="space-y-2">
                             <p className='text-sm text-blue-600'>
                                 শিক্ষক/শিক্ষিকা/কর্মচারী নিয়োগ  দেওয়া হইবে.... ।
                             </p>
 
-                            <p className='text-sm text-blue-600 font-bold'>
-
-                                ২৬/০৩/২০২৪  হইতে  ০৯/০৪/২০০২৪
-
+                            <p className='text-[12px] text-blue-600 font-bold'>
+                                নিয়োগ প্রকাশের তারিখ : ২৬/০৩/২০২৪
+                            </p>
+                            <p className='text-[12px] text-blue-600 font-bold'>
+                                আবেদনের শেষ তারিখ : ০৯/০৪/২০০২৪
                             </p>
                         </div>
                     </div>
@@ -27,15 +28,16 @@ const NoticeBoard = () => {
                 <Link to={'/notice'}>
                     <div className=" mt-6 p-2 flex gap-3 bg-[#E7E6E1] m-2">
                         <img src={newspaper} alt="" className="h-28" />
-                        <div className="space-y-3">
+                        <div className="space-y-2">
                             <p className='text-sm text-blue-600'>
                                 শিক্ষক/শিক্ষিকা/কর্মচারী নিয়োগ  দেওয়া হইবে.... ।
                             </p>
 
-                            <p className='text-sm text-blue-600 font-bold'>
-
-                                ২৬/০৩/২০২৪  হইতে  ০৯/০৪/২০০২৪
-
+                            <p className='text-[12px] text-blue-600 font-bold'>
+                                নিয়োগ প্রকাশের তারিখ : ২৬/০৩/২০২৪
+                            </p>
+                            <p className='text-[12px] text-blue-600 font-bold'>
+                                আবেদনের শেষ তারিখ : ০৯/০৪/২০০২৪
                             </p>
                         </div>
                     </div>

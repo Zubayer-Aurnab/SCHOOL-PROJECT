@@ -39,7 +39,7 @@ const Footer = () => {
                                     className="flex items-center gap-2 hover:border-b-2"
                                     target="_blank"
                                 >
-                                    <FaLocationDot /> VILL: Khord Ailchara Union: Ailchara Upzilla: Kushtia Sadar Zilla: Kushtia
+                                    <FaLocationDot /> Vill: Khord Ailchara Union: Ailchara Upzilla: Kushtia Sadar Zilla: Kushtia
                                 </a>
 
                             </div>

@@ -67,6 +67,14 @@ const NavBar = () => {
         >
             Gallery
         </NavLink>
+        <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#314E52] lg:text-xl  font-semibold" : "text-[#314E52] lg:text-xl hover:border-b-4 border-[#314E52] font-semibold"
+            }
+        >
+            Student Results
+        </NavLink>
 
     </>
     return (
@@ -100,9 +108,10 @@ const NavBar = () => {
             </div>
 
             {/* For Mobile */}
-            <div className="bg-[#F2A154] block lg:hidden">
-                <div className="flex justify-between items-center p-2" onClick={toggleDropdown}>
+            <div className="bg-[#F2A154]  block lg:hidden cursor-pointer">
+                <div className="flex justify-between items-center p-2 " onClick={toggleDropdown}>
                     <span className="text-[#314E52] font-bold ">Menu</span>
+                    
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[#314E52] font-bold " fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         {isOpen ? (
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
@@ -111,7 +120,7 @@ const NavBar = () => {
                         )}
                     </svg>
                 </div>
-                <div style={{ maxHeight: isOpen ? '100vh' : '0', overflow: 'hidden', transition: 'max-height 1s ease' }} className="flex flex-col gap-5 p-2">
+                <div style={{ maxHeight: isOpen ? '100vh' : '0', overflow: 'hidden', transition: 'max-height 1s ease' }} className="flex flex-col gap-5 px-2 ">
                     {links}
                 </div>
             </div>
