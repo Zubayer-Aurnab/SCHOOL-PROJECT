@@ -9,7 +9,7 @@ const ImportantLinks = () => {
 
 
                 <div className="border-b border-[#314E52] p-4">
-                    <Link to={"https://deo.kushtia.gov.bd/"} target="_blank">
+                    <Link to={"https://www.jessoreboard.gov.bd/"} target="_blank">
                         <p className="text-blue-600 flex items-center gap-2 hover:underline "> <MdSchool className="text-black text-xl " /> যশোর,শিক্ষা বোর্ড </p>
                     </Link>
                 </div>

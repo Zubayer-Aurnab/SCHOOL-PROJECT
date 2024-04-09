@@ -12,7 +12,7 @@ const About = () => {
             {/* Principal And chairman section  */}
             <div className='flex flex-col lg:flex-row gap-8 lg:gap-0 justify-evenly'>
                 <div className='border-4'>
-                    <h1 className=' bg-[#E7E6E1] px-2'>প্রধান শিক্ষকঃ</h1>
+                    <h1 className=' bg-[#E7E6E1] px-2 '>প্রধান শিক্ষকঃ</h1>
                     <div className='p-8 text-center flex flex-col items-center'>
                         <img src={a2} alt="" className='w-60 rounded-full mb-2' />
                         <p>মোঃ মাসুদ আল মামুন</p>
